@@ -1,0 +1,76 @@
+LA is about **Spatial Transformation** 
+
+# What included
+
+It basically is :
+`[a,b].[c,d]=v`
+
+You can apply a vector to a matrix, or a matrice to another matrice. 
+
+**Vector**: 
+a direction. a parameter to describe how much force I apply to this direction. 
+
+**Matrice**: 
+a set of rules. 
+
+
+**Difference**
+
+V -> M: 
+`Find the postition of the vector in this specific matrice
+or: If I apply this rules on this direction, what output can I get`
+
+M -> M:
+`After this kind of transformation, what would the space be like
+If I transformed this rule based on that rule, what will happend`
+
+**Note**: The order in M -> M is incommutative, since the order changed, the output will change. 
+
+# How to describe a transformation
+
+## Fancy Concepts
+a space can be marked by several **basic vectors**. For example, two basic vectors can form a whole plan (2 demisions)
+
+so we can use that two basic vectors to represent a kind of matrice. 
+
+
+**Determinant**: How much a space scales. (can be negative. and it is commutative since it is a scalar)
+
+**Kernal**: an invisible space but exist in maths. It is the tomb of other demisions. 
+
+**Column Space**: The set of possibilities in this dimension. 
+
+## Usual Ways to process
+
+**Linear Transformation**
+
+.the VM things. 
+
+When it comes to M -> M, the M will often be the same dimensions. 
+
+If it's not, the outputs will be determined by the less 
+
+**Meaning**: You can't generate new possibilities from nothing. The transformation may not create anything new. 
+
+**Dot Products**
+
+uhmm. It is kind of multiply something, in a LA way. 
+
+**Note**: It is commutative. You can use the duality to understand it. 
+It is like: 
+
+vector a . vector b = v
+
+and every vector here can be made by basic vectors (i hat and j hat)
+
+So we use 
+i hat . j hat = v 
+as an example. 
+
+you can absolutely draw a line that divide the span equaly between the v and i hat (same as j)
+and you will notice that
+the v's projection on i is actualy equal to i's on v. 
+
+so whatever you use i.j or j.i, the output is the same. 
+
+It is different from matrix.matrix
