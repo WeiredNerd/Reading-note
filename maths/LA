@@ -36,6 +36,14 @@ so we can use that two basic vectors to represent a kind of matrice.
 
 **Determinant**: How much a space scales. (can be negative. and it is commutative since it is a scalar)
 
+if det=0, no inverse.
+det > 1: enlarge
+<1: shrink
+<0: reverse
+
+**The determinant tells you how much the matrix scales space. The inverse scales it back in the opposite way**
+
+
 **Kernal**: an invisible space but exist in maths. It is the tomb of other demisions. 
 
 **Column Space**: The set of possibilities in this dimension. 
